@@ -12,6 +12,7 @@ public class DashController : MonoBehaviour {
     Rigidbody rb;
     public float dashTimeMax = .25f;
     public float dashSpeed = 5;
+    public float Speed = 5f;
     public float jumpHeight =7;
     public int pressCountL, pressCountR, pressCountU, pressCountB;
     public float PressCountDelayMax = .05f;
@@ -54,7 +55,7 @@ public class DashController : MonoBehaviour {
                 }
             }
         }
-        transform.position = new Vector3(transform.position.x,transform.position.y,transform.position.z+1*Time.deltaTime);
+        transform.position = new Vector3(transform.position.x,transform.position.y,transform.position.z+Speed*Time.deltaTime);
         }
     public void Smokey () {
         Instantiate (dashEffect, dashPos.position, dashPos.rotation);
@@ -62,6 +63,11 @@ public class DashController : MonoBehaviour {
     public void OnCollisionEnter (Collision other) {
         if (other.gameObject.CompareTag ("Floor")) {
             Grounded = true;
+        }
+        if (other.gameObject.CompareTag("SpawnPoint"))
+        {
+            Debug.Log("Attempted to disable collision Player");
+            Physics.IgnoreCollision(other.gameObject.GetComponent<Collider>(), GetComponent<Collider>());
         }
     }
 }

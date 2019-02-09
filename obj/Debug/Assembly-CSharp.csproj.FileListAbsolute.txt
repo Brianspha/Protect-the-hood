@@ -1,0 +1,2 @@
+C:\Users\g14m1190\Documents\Github\Protect-the-hood\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\g14m1190\Documents\Github\Protect-the-hood\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
