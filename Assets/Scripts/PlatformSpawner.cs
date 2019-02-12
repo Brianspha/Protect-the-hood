@@ -10,6 +10,7 @@ public class PlatformSpawner : MonoBehaviour {
     public float currentSpawnTime;
     Transform currentPos;
     public float SizeApart = 24.9f;
+    public bool Active = false;
     void Start()
     {
         currentPos = transform;
@@ -19,14 +20,17 @@ public class PlatformSpawner : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (currentSpawnTime <= 0)
+        if (Active)
         {
-            currentSpawnTime = maxTimetoSpawn;
-            SpawnPlatforms();
-        }
-        else
-        {
-            currentSpawnTime -= Time.deltaTime;
+            if (currentSpawnTime <= 0)
+            {
+                currentSpawnTime = maxTimetoSpawn;
+                SpawnPlatforms();
+            }
+            else
+            {
+                currentSpawnTime -= Time.deltaTime;
+            }
         }
     }
     public void SpawnPlatforms()

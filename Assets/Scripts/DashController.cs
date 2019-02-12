@@ -54,8 +54,9 @@ public class DashController : MonoBehaviour {
                     transform.position = Vector3.MoveTowards(transform.position, moveVector, dashSpeed * Time.deltaTime);
                 }
             }
+            transform.position = new Vector3(transform.position.x,transform.position.y,transform.position.z+Speed*Time.deltaTime);
+
         }
-        transform.position = new Vector3(transform.position.x,transform.position.y,transform.position.z+Speed*Time.deltaTime);
         }
     public void Smokey () {
         Instantiate (dashEffect, dashPos.position, dashPos.rotation);

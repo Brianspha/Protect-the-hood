@@ -180,19 +180,19 @@
     <None Include="Assets\Particle Attractor by Moonflower Carnivore\Particle Attractor documentation.txt" />
     <None Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Additive_Opacity.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/g14m1190/Documents/Github/Protect-the-hood/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/g14m1190/Documents/Github/Protect-the-hood/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/g14m1190/Documents/Github/Protect-the-hood/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/g14m1190/Documents/Github/Protect-the-hood/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/g14m1190/Documents/Github/Protect-the-hood/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -396,22 +396,22 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="PKFx-Helper">
-      <HintPath>C:/Users/g14m1190/Documents/Github/Protect-the-hood/Assets/PopcornFX/Scripts/PKFx-Helper.dll</HintPath>
+      <HintPath>C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Assets/PopcornFX/Scripts/PKFx-Helper.dll</HintPath>
     </Reference>
     <Reference Include="PKFx-Runtime">
-      <HintPath>C:/Users/g14m1190/Documents/Github/Protect-the-hood/Assets/PopcornFX/Scripts/PKFx-Runtime.dll</HintPath>
+      <HintPath>C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Assets/PopcornFX/Scripts/PKFx-Runtime.dll</HintPath>
     </Reference>
     <Reference Include="PKFxManager">
-      <HintPath>C:/Users/g14m1190/Documents/Github/Protect-the-hood/Assets/PopcornFX/Scripts/PKFxManager.dll</HintPath>
+      <HintPath>C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Assets/PopcornFX/Scripts/PKFxManager.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/g14m1190/Documents/Github/Protect-the-hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/g14m1190/Documents/Github/Protect-the-hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/g14m1190/Documents/Github/Protect-the-hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>

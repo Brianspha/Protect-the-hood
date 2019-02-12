@@ -14,25 +14,14 @@ public class CollisionIgnorer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (canCountDown)
-        {
-            timer -= Time.deltaTime;
-        }
-        if (timer <= 0)
-        {
-            canCountDown = false;
-            GetComponent<BoxCollider>().isTrigger = true;
 
-        }
     }
     public void OnCollisionEnter(Collision other)
     {
-        Debug.Log("Collided with: " + other.gameObject.tag);
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player")|| other.gameObject.CompareTag("Gun"))
         {
-            Debug.Log("Attempted to disable collision");
-            GetComponent<BoxCollider>().isTrigger = false;
-            canCountDown = true;
+            Debug.Log("Collided with: " + other.gameObject.tag);
+            Physics.IgnoreCollision(GetComponent<Collider>(), other.gameObject.GetComponent<Collider>());
         }
     }
 
