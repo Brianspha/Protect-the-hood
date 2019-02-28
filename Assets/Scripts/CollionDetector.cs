@@ -7,10 +7,6 @@ public class CollionDetector : MonoBehaviour
     // Start is called before the first frame update
     public string toDetect;
     public GameObject toSpawn;
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     public void OnCollisionEnter(Collision collision)
