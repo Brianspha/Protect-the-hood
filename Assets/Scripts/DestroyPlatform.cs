@@ -23,7 +23,7 @@ public class DestroyPlatform : MonoBehaviour
     }
     void SelfDestruct()
     {
-        Destroy(gameObject.transform.parent);
+        Destroy(gameObject);
     }
 
 

@@ -21,7 +21,6 @@ public class DashController : MonoBehaviour {
     public GameObject dashEffect;
     public Transform dashPos;
     PlayerMovement movement;
-    public bool Activate = false;
     public float dashX = 12.44f;
     public bool Grounded { get; set; }
 
@@ -35,8 +34,6 @@ public class DashController : MonoBehaviour {
 
     // Update is called once per frame
     void FixedUpdate () {
-        if (Activate)
-        {
             if (Input.GetKeyDown(KeyCode.A))
             {
                 moveVector = new Vector3(transform.position.x-dashX, transform.position.y, transform.position.z);
@@ -54,9 +51,7 @@ public class DashController : MonoBehaviour {
                     transform.position = Vector3.MoveTowards(transform.position, moveVector, dashSpeed * Time.deltaTime);
                 }
             }
-            transform.position = new Vector3(transform.position.x,transform.position.y,transform.position.z+Speed*Time.deltaTime);
 
-        }
         }
     public void Smokey () {
         Instantiate (dashEffect, dashPos.position, dashPos.rotation);

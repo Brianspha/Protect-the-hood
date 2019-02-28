@@ -254,11 +254,13 @@ Assets/Scripts/GameManager.cs
 Assets/Scripts/Gun.cs
 Assets/Scripts/JumpScript.cs
 Assets/Scripts/MoveOn.cs
+Assets/Scripts/ObstacleActivator.cs
 Assets/Scripts/PlatformSpawner.cs
 Assets/Scripts/PlayerMovement.cs
 Assets/Scripts/RestrictorScript.cs
 Assets/Scripts/RippleEffect.cs
 Assets/Scripts/RipplePostProcessor.cs
+Assets/Scripts/RunScript.cs
 Assets/Scripts/SelfDestruct.cs
 Assets/Scripts/Spwaner.cs
 "Assets/Simple Health Bar/_Asteroids Example/Scripts/AsteroidController.cs"

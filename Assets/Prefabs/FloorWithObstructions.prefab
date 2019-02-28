@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1674276343245389308}
   m_Layer: 0
   m_Name: Obstructions
-  m_TagString: Wall
+  m_TagString: Obstruction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 6144020833174303260}
   m_Layer: 0
   m_Name: Obstructions
-  m_TagString: Wall
+  m_TagString: Obstruction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -229,9 +229,10 @@ GameObject:
   - component: {fileID: 508991323900664933}
   - component: {fileID: 5116986791595320108}
   - component: {fileID: 4906065881986244094}
+  - component: {fileID: 4492637438119504467}
   m_Layer: 0
   m_Name: Obstructions
-  m_TagString: Wall
+  m_TagString: Obstruction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -324,6 +325,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4492637438119504467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4277351681966940930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85100f8e36e846041b3f547ca98c87f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toDetect: Bullet
+  toSpawn: {fileID: 7929749315190978303, guid: ca440ce9e35f6f14fa6b721e3251f84f, type: 3}
 --- !u!1 &5169135831017860082
 GameObject:
   m_ObjectHideFlags: 0
@@ -339,7 +354,7 @@ GameObject:
   - component: {fileID: 3729459775254266934}
   m_Layer: 0
   m_Name: Obstructions
-  m_TagString: Wall
+  m_TagString: Obstruction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -651,7 +666,7 @@ GameObject:
   - component: {fileID: 7288888127933468159}
   - component: {fileID: 9106239360931167497}
   m_Layer: 0
-  m_Name: Floor2
+  m_Name: FloorWithObstructions
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1067,9 +1082,10 @@ GameObject:
   - component: {fileID: 8739683836178348400}
   - component: {fileID: 4151654109440954450}
   - component: {fileID: 3655216725074978464}
+  - component: {fileID: 30435738651509212}
   m_Layer: 0
   m_Name: Obstructions
-  m_TagString: Wall
+  m_TagString: Obstruction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1162,6 +1178,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &30435738651509212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7480097180262560991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ee4097c66c7c0a42aec302a8f7785a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walls:
+  - {fileID: 7480097180262560991}
+  - {fileID: 5169135831017860082}
+  - {fileID: 3667940880071224383}
+  - {fileID: 4013963842048657070}
+  - {fileID: 4277351681966940930}
 --- !u!1001 &1002449301461766717
 PrefabInstance:
   m_ObjectHideFlags: 0
