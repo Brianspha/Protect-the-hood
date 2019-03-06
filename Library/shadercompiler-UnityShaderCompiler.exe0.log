@@ -1,67 +1,36 @@
 Base path: C:/Program Files/Unity/Editor/Data
 Cmd: initializeCompiler
-Cmd: preprocess
-  insize=1483 outsize=523 ok=1
-Cmd: preprocess
-  insize=1280 outsize=528 ok=1
-Cmd: preprocess
-  insize=1147 outsize=455 ok=1
-Cmd: preprocess
-  insize=1129 outsize=437 ok=1
-Cmd: preprocess
-  insize=1783 outsize=500 ok=1
-Cmd: preprocess
-  insize=1352 outsize=397 ok=1
-Cmd: preprocess
-  insize=1765 outsize=482 ok=1
-Cmd: preprocess
-  insize=1222 outsize=502 ok=1
-Cmd: preprocess
-  insize=1165 outsize=442 ok=1
-Cmd: preprocess
-  insize=3435 outsize=742 ok=1
-Cmd: preprocess
-  insize=1356 outsize=492 ok=1
-Cmd: preprocess
-  insize=1240 outsize=488 ok=1
-Cmd: preprocess
-  insize=1204 outsize=484 ok=1
-Cmd: preprocess
-  insize=1697 outsize=483 ok=1
-Cmd: preprocess
-  insize=1946 outsize=574 ok=1
-Cmd: preprocess
-  insize=1184 outsize=1184 ok=1
-Cmd: preprocess
-  insize=1930 outsize=544 ok=1
-Cmd: preprocess
-  insize=975 outsize=406 ok=1
-Cmd: preprocess
-  insize=3432 outsize=739 ok=1
-Cmd: preprocess
-  insize=1801 outsize=486 ok=1
-Cmd: preprocess
-  insize=1602 outsize=489 ok=1
-Cmd: preprocess
-  insize=1841 outsize=527 ok=1
-Cmd: preprocess
-  insize=1541 outsize=557 ok=1
-Cmd: preprocess
-  insize=1858 outsize=547 ok=1
-Cmd: preprocess
-  insize=1876 outsize=534 ok=1
-Cmd: preprocess
-  insize=1462 outsize=388 ok=1
-Cmd: preprocess
-  insize=1205 outsize=482 ok=1
-Cmd: preprocess
-  insize=1757 outsize=504 ok=1
-Cmd: preprocess
-  insize=1379 outsize=515 ok=1
-Cmd: preprocess
-  insize=1840 outsize=529 ok=1
-Cmd: preprocess
-  insize=1780 outsize=527 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler

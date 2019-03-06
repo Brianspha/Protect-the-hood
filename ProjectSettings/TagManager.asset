@@ -19,6 +19,7 @@ TagManager:
   - Gun
   - Bullet
   - DestructableAI
+  - Obstruction
   layers:
   - Default
   - TransparentFX
