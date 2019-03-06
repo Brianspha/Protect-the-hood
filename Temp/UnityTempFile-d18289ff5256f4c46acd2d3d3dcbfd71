@@ -2,9 +2,9 @@
 -target:library
 -nowarn:0169
 -langversion:4
--out:Temp/Assembly-CSharp-Editor.dll
+-out:Temp/Unity.TextMeshPro.Editor.dll
 -nostdlib
--r:Library/ScriptAssemblies/Assembly-CSharp.dll
+-r:Library/ScriptAssemblies/Unity.TextMeshPro.dll
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -68,11 +68,6 @@
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEditor.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/Unity.Locator.dll"
--r:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
--r:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
--r:Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
--r:Library/ScriptAssemblies/Unity.TextMeshPro.dll
--r:Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
@@ -82,14 +77,20 @@
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Editor/Vuforia.UnityExtensions.Editor.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
 -r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
--r:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/Facebook/UnityEditor.Facebook.Extensions.dll"
 -r:Assets/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll
 -r:Assets/NuGet/Editor/DotNetZip.dll
 -r:Assets/NuGet/Editor/NuGetForUnity.dll
@@ -97,11 +98,14 @@
 -r:Assets/PopcornFX/Scripts/PKFx-Runtime.dll
 -r:Assets/PopcornFX/Scripts/PKFxManager.dll
 -r:Assets/PopcornFX/Scripts/Editor/PKFx-Editor.dll
--r:C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll
--r:C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll
--r:C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll
--r:C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll
--r:C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll
+-r:"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll"
+-r:"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll"
+-r:"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll"
+-r:"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll"
+-r:"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll"
+-r:"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll"
 -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll"
 -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll"
 -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll"
@@ -122,7 +126,7 @@
 -define:UNITY_2018_1_OR_NEWER
 -define:UNITY_2018_2_OR_NEWER
 -define:UNITY_2018_3_OR_NEWER
--define:UNITY_2018_3_0
+-define:UNITY_2018_3_4
 -define:UNITY_2018_3
 -define:UNITY_2018
 -define:PLATFORM_ARCH_64
@@ -209,13 +213,43 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
--define:ENABLE_VSTU
-Assets/EazyCamera/Code/Camera/Editor/EzCamInspector.cs
-Assets/EffectExamples/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
-"Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/unity5/Editor/CustomMaterialEditor.cs"
-"Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/unity5/Editor/Shader_softrim_dissolve.cs"
-Assets/RTS_Camera/Scripts/Editor/LayoutHelpers.cs
-Assets/RTS_Camera/Scripts/Editor/RTS_CameraEditor.cs
-"Assets/Simple Health Bar/Editor/SimpleHealthBarEditor.cs"
-"Assets/Simple Health Bar/Editor/SimpleHealthBarWindow.cs"
-Assets/VSCode/Plugins/Editor/VSCode.cs
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/DropdownOptionListDrawer.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/EditorCoroutine.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/GlyphInfoDrawer.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/KerningPairDrawer.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/SpriteInfoDrawer.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TextAlignmentDrawer.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_BaseEditorPanel.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_BaseShaderGUI.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_BitmapShaderGUI.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_ColorGradientAssetMenu.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_ColorGradientEditor.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_DropdownEditor.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_EditorPanel.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_EditorUtility.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_FontAssetEditor.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_InputFieldEditor.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_MeshRendererEditor.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_PackageUtilities.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_PostBuildProcessHandler.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_ProjectTextSettings.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_ResourcesLoader.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_SDFShaderGUI.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_SettingsEditor.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_SpriteAssetEditor.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_SpriteAssetImporter.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_SpriteAssetMenu.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_StyleAssetMenu.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_StyleSheetEditor.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_SubMesh_Editor.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_SubMeshUI_Editor.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_UiEditorPanel.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_UIStyleManager.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_ContextMenus.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_CreateObjectMenu.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_EditorShaderUtilities.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_FontAssetCreatorWindow.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_FontPlugin.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_SortingLayerHelper.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_TextContainerEditor.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_TexturePostProcessor.cs"

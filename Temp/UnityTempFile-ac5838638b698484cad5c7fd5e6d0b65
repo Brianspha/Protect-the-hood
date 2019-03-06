@@ -2,8 +2,9 @@
 -target:library
 -nowarn:0169
 -langversion:4
--out:Temp/Assembly-CSharp.dll
+-out:Temp/Assembly-CSharp-Editor.dll
 -nostdlib
+-r:Library/ScriptAssemblies/Assembly-CSharp.dll
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -34,6 +35,7 @@
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll"
@@ -72,25 +74,51 @@
 -r:Library/ScriptAssemblies/Unity.TextMeshPro.dll
 -r:Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Editor/Vuforia.UnityExtensions.Editor.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/Facebook/UnityEditor.Facebook.Extensions.dll"
+-r:Assets/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll
+-r:Assets/NuGet/Editor/DotNetZip.dll
+-r:Assets/NuGet/Editor/NuGetForUnity.dll
 -r:Assets/PopcornFX/Scripts/PKFx-Helper.dll
 -r:Assets/PopcornFX/Scripts/PKFx-Runtime.dll
 -r:Assets/PopcornFX/Scripts/PKFxManager.dll
--r:C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll
--r:C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll
--r:C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll
--r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\mscorlib.dll"
--r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.dll"
--r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Core.dll"
--r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Runtime.Serialization.dll"
--r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Xml.dll"
--r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Xml.Linq.dll"
--r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.dll"
--r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.Lang.dll"
--r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\Boo.Lang.dll"
+-r:Assets/PopcornFX/Scripts/Editor/PKFx-Editor.dll
+-r:"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll"
+-r:"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll"
+-r:"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll"
+-r:"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll"
+-r:"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\Boo.Lang.dll"
 -define:UNITY_5_3_OR_NEWER
 -define:UNITY_5_4_OR_NEWER
 -define:UNITY_5_5_OR_NEWER
@@ -102,7 +130,7 @@
 -define:UNITY_2018_1_OR_NEWER
 -define:UNITY_2018_2_OR_NEWER
 -define:UNITY_2018_3_OR_NEWER
--define:UNITY_2018_3_0
+-define:UNITY_2018_3_4
 -define:UNITY_2018_3
 -define:UNITY_2018
 -define:PLATFORM_ARCH_64
@@ -177,7 +205,7 @@
 -define:ENABLE_AR
 -define:ENABLE_WEBSOCKET_HOST
 -define:ENABLE_MONO
--define:NET_2_0_SUBSET
+-define:NET_2_0
 -define:NET_LEGACY
 -define:ENABLE_PROFILER
 -define:DEBUG
@@ -189,81 +217,12 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
--define:ENABLE_VSTU
-Assets/DiscoveryPack_Demo/_Sources/Scripts/AddPKFxFXComponent.cs
-Assets/DiscoveryPack_Demo/_Sources/Scripts/BounceDie.cs
-Assets/DiscoveryPack_Demo/_Sources/Scripts/CamZoom.cs
-Assets/DiscoveryPack_Demo/_Sources/Scripts/FPSCam.cs
-Assets/DiscoveryPack_Demo/_Sources/Scripts/PointClickSpawn.cs
-Assets/DiscoveryPack_Demo/_Sources/Scripts/RomanCandle.cs
-Assets/DiscoveryPack_Demo/_Sources/Scripts/RootyTootyPointNShooty.cs
-Assets/DiscoveryPack_Demo/_Sources/Scripts/TimedSuicide.cs
-Assets/EazyCamera/Code/Animation/EzAnimator.cs
-Assets/EazyCamera/Code/Camera/EzCamera.cs
-Assets/EazyCamera/Code/Camera/EzCameraCollider.cs
-Assets/EazyCamera/Code/Camera/EzCameraController.cs
-Assets/EazyCamera/Code/Camera/EzCameraSettings.cs
-Assets/EazyCamera/Code/Camera/EzLockOnTarget.cs
-Assets/EazyCamera/Code/Controller/EzPlayerController.cs
-Assets/EazyCamera/Code/Player/Locomotion/EzMotor.cs
-Assets/EazyCamera/Code/StateMachine/CameraStates/EzCameraState.cs
-Assets/EazyCamera/Code/StateMachine/CameraStates/EzFollowState.cs
-Assets/EazyCamera/Code/StateMachine/CameraStates/EzLockOnState.cs
-Assets/EazyCamera/Code/StateMachine/CameraStates/EzOrbitState.cs
-Assets/EazyCamera/Code/StateMachine/CameraStates/EzStationaryState.cs
-Assets/EazyCamera/Code/StateMachine/EzStateMachine.cs
-Assets/EazyCamera/Code/Util/ExtensionMethods.cs
-Assets/EffectExamples/Shared/Scripts/DecalDestroyer.cs
-Assets/EffectExamples/Shared/Scripts/ExtinguishableFire.cs
-Assets/EffectExamples/Shared/Scripts/GunAim.cs
-Assets/EffectExamples/Shared/Scripts/GunShoot.cs
-Assets/EffectExamples/Shared/Scripts/ParticleCollision.cs
-Assets/EffectExamples/Shared/Scripts/ParticleExamples.cs
-Assets/EffectExamples/Shared/Scripts/ParticleMenu.cs
-Assets/EffectExamples/TutorialInfo/Scripts/Readme.cs
-"Assets/EZ Camera Shake/Demo/Sample Scripts/ShakeByDistance.cs"
-"Assets/EZ Camera Shake/Demo/Sample Scripts/ShakeOnKeyPress.cs"
-"Assets/EZ Camera Shake/Demo/Sample Scripts/ShakeOnTrigger.cs"
-"Assets/EZ Camera Shake/Demo/ShakeDemo.cs"
-"Assets/EZ Camera Shake/Scripts/CameraShakeInstance.cs"
-"Assets/EZ Camera Shake/Scripts/CameraShakePresets.cs"
-"Assets/EZ Camera Shake/Scripts/CameraShaker.cs"
-"Assets/EZ Camera Shake/Scripts/Utilities/CameraUtilities.cs"
-"Assets/Hellmade/Eazy Sound Manager/Demo/Scripts/EazySoundManagerDemo.cs"
-"Assets/Hellmade/Eazy Sound Manager/Scripts/Audio.cs"
-"Assets/Hellmade/Eazy Sound Manager/Scripts/EazySoundManager.cs"
-"Assets/Particle Attractor by Moonflower Carnivore/Scripts/particleAttractorLinear.cs"
-"Assets/Particle Attractor by Moonflower Carnivore/Scripts/particleAttractorMove.cs"
-"Assets/Particle Attractor by Moonflower Carnivore/Scripts/particleAttractorSelf.cs"
-"Assets/Particle Attractor by Moonflower Carnivore/Scripts/particleAttractorSpherical.cs"
-"Assets/Particle Attractor by Moonflower Carnivore/Scripts/rotation.cs"
-"Assets/Particle Dissolve Shader by Moonflower Carnivore/Scripts/HUDFPS.cs"
-"Assets/Particle Dissolve Shader by Moonflower Carnivore/Scripts/PDS_GameController.cs"
-"Assets/Particle Dissolve Shader by Moonflower Carnivore/Scripts/ScrollingUVs_PDS.cs"
-Assets/RTS_Camera/Demo/DemoScene.cs
-Assets/RTS_Camera/Demo/TargetSelector.cs
-Assets/RTS_Camera/Scripts/RTS_Camera.cs
-Assets/Scripts/AIMove.cs
-Assets/Scripts/Bullet.cs
-Assets/Scripts/CameraFollow.cs
-Assets/Scripts/CollisionIgnorer.cs
-Assets/Scripts/DashController.cs
-Assets/Scripts/DestroyPlatform.cs
-Assets/Scripts/GameManager.cs
-Assets/Scripts/Gun.cs
-Assets/Scripts/JumpScript.cs
-Assets/Scripts/MoveOn.cs
-Assets/Scripts/PlatformSpawner.cs
-Assets/Scripts/PlayerMovement.cs
-Assets/Scripts/RestrictorScript.cs
-Assets/Scripts/RippleEffect.cs
-Assets/Scripts/RipplePostProcessor.cs
-Assets/Scripts/SelfDestruct.cs
-Assets/Scripts/Spwaner.cs
-"Assets/Simple Health Bar/_Asteroids Example/Scripts/AsteroidController.cs"
-"Assets/Simple Health Bar/_Asteroids Example/Scripts/GameManager.cs"
-"Assets/Simple Health Bar/_Asteroids Example/Scripts/HealthPickupController.cs"
-"Assets/Simple Health Bar/_Asteroids Example/Scripts/PlayerController.cs"
-"Assets/Simple Health Bar/_Asteroids Example/Scripts/PlayerHealth.cs"
-"Assets/Simple Health Bar/Scripts/SimpleHealthBar.cs"
-Assets/UETools/Magic_Particle_Effects/Scripts/CameraMovement.cs
+Assets/EazyCamera/Code/Camera/Editor/EzCamInspector.cs
+Assets/EffectExamples/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+"Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/unity5/Editor/CustomMaterialEditor.cs"
+"Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/unity5/Editor/Shader_softrim_dissolve.cs"
+Assets/RTS_Camera/Scripts/Editor/LayoutHelpers.cs
+Assets/RTS_Camera/Scripts/Editor/RTS_CameraEditor.cs
+"Assets/Simple Health Bar/Editor/SimpleHealthBarEditor.cs"
+"Assets/Simple Health Bar/Editor/SimpleHealthBarWindow.cs"
+Assets/VSCode/Plugins/Editor/VSCode.cs

@@ -2,9 +2,8 @@
 -target:library
 -nowarn:0169
 -langversion:4
--out:Temp/Assembly-CSharp-Editor.dll
+-out:Temp/Unity.PackageManagerUI.Editor.dll
 -nostdlib
--r:Library/ScriptAssemblies/Assembly-CSharp.dll
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -68,11 +67,6 @@
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEditor.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/Unity.Locator.dll"
--r:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
--r:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
--r:Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
--r:Library/ScriptAssemblies/Unity.TextMeshPro.dll
--r:Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
@@ -82,14 +76,20 @@
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Editor/Vuforia.UnityExtensions.Editor.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
 -r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
--r:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/Facebook/UnityEditor.Facebook.Extensions.dll"
 -r:Assets/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll
 -r:Assets/NuGet/Editor/DotNetZip.dll
 -r:Assets/NuGet/Editor/NuGetForUnity.dll
@@ -97,11 +97,14 @@
 -r:Assets/PopcornFX/Scripts/PKFx-Runtime.dll
 -r:Assets/PopcornFX/Scripts/PKFxManager.dll
 -r:Assets/PopcornFX/Scripts/Editor/PKFx-Editor.dll
--r:C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll
--r:C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll
--r:C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll
--r:C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll
--r:C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll
+-r:"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll"
+-r:"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll"
+-r:"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll"
+-r:"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll"
+-r:"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll"
+-r:"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll"
 -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll"
 -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll"
 -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll"
@@ -122,7 +125,7 @@
 -define:UNITY_2018_1_OR_NEWER
 -define:UNITY_2018_2_OR_NEWER
 -define:UNITY_2018_3_OR_NEWER
--define:UNITY_2018_3_0
+-define:UNITY_2018_3_4
 -define:UNITY_2018_3
 -define:UNITY_2018
 -define:PLATFORM_ARCH_64
@@ -209,13 +212,55 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
--define:ENABLE_VSTU
-Assets/EazyCamera/Code/Camera/Editor/EzCamInspector.cs
-Assets/EffectExamples/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
-"Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/unity5/Editor/CustomMaterialEditor.cs"
-"Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/unity5/Editor/Shader_softrim_dissolve.cs"
-Assets/RTS_Camera/Scripts/Editor/LayoutHelpers.cs
-Assets/RTS_Camera/Scripts/Editor/RTS_CameraEditor.cs
-"Assets/Simple Health Bar/Editor/SimpleHealthBarEditor.cs"
-"Assets/Simple Health Bar/Editor/SimpleHealthBarWindow.cs"
-Assets/VSCode/Plugins/Editor/VSCode.cs
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/AssemblyInfo.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/External/SemVersion.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/External/SemVersionExtension.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Common/ApplicationUtil.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Common/OperationSignal.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Common/Resources.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Common/ThreadedDelay.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Interfaces/IAddOperation.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Interfaces/IBaseOperation.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Interfaces/IListOperation.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Interfaces/IOperationFactory.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Interfaces/IRemoveOperation.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Interfaces/ISearchOperation.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/OperationFactory.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/Package.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageAssetPostprocessor.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageCollection.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageError.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageFilter.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageGroupOrigins.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageInfo.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageInfoListExtensions.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageJsonHelper.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageListExtensions.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageOrigin.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageSearchFilter.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageState.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageTag.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Upm/UpmAddOperation.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Upm/UpmBaseOperation.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Upm/UpmListOperation.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Upm/UpmOperationFactory.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Upm/UpmRemoveOperation.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Upm/UpmSearchOperation.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/Common/Alert.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/Common/LoadingSpinner.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/Common/PopupField.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/Common/UIUtils.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/Common/VersionItem.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/Interfaces/IPackageManagerExtension.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageAddFromUrlField.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageDetails.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageFiltering.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageGroup.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageItem.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageList.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageManagerExtensions.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageManagerPrefs.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageManagerToolbar.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageManagerWindow.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageSearchToolbar.cs"
+"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageStatusBar.cs"

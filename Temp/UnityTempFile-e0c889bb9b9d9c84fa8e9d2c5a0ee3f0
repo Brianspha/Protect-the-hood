@@ -74,14 +74,17 @@
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
 -r:Assets/PopcornFX/Scripts/PKFx-Helper.dll
 -r:Assets/PopcornFX/Scripts/PKFx-Runtime.dll
 -r:Assets/PopcornFX/Scripts/PKFxManager.dll
--r:C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll
--r:C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll
--r:C:/Users/g14m1190/Documents/GitHub/Protect-the-hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll
+-r:"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll"
+-r:"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll"
+-r:"C:/Users/Siphamandla/Documents/Protect the hood/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll"
 -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\mscorlib.dll"
 -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.dll"
 -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Core.dll"
@@ -102,7 +105,7 @@
 -define:UNITY_2018_1_OR_NEWER
 -define:UNITY_2018_2_OR_NEWER
 -define:UNITY_2018_3_OR_NEWER
--define:UNITY_2018_3_0
+-define:UNITY_2018_3_4
 -define:UNITY_2018_3
 -define:UNITY_2018
 -define:PLATFORM_ARCH_64
@@ -189,7 +192,6 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
--define:ENABLE_VSTU
 Assets/DiscoveryPack_Demo/_Sources/Scripts/AddPKFxFXComponent.cs
 Assets/DiscoveryPack_Demo/_Sources/Scripts/BounceDie.cs
 Assets/DiscoveryPack_Demo/_Sources/Scripts/CamZoom.cs
